@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    &.in-action {
+        animation: elementInAction 0.6s linear infinite;
+    }
+}
+body {
+    font-family: "main-fonts";
+}
+main {
+    height: calc(100vh - 96px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1,
+h2,
+p {
+    cursor: default;
+}
+a {
+    text-decoration: none;
+}

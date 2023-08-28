@@ -1,0 +1,13 @@
+.trainer-division {
+    display: flex;
+    align-items: flex-end;
+    img {
+        object-fit: cover;
+        &:first-of-type {
+            height: 240px;
+        }
+        &:last-of-type {
+            height: 120px;
+        }
+    }
+}
